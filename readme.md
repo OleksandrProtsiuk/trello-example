@@ -75,6 +75,11 @@ then run migrations
     
      php bin/console doctrine:migrations:migrate
      
+then run
+
+    yarn encore dev --watch  // to build React App
+    symfony server:start
+
 -----------------------------------------------
 
 Feel free to open issue if you have any questions.
